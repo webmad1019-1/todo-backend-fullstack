@@ -1,25 +1,30 @@
 {
-  "name": "todobackend",
-  "version": "0.0.0",
-  "private": true,
+  "name": "todo-backend-fullstack-webmad1019-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node ./bin/www",
-    "dev": "DEBUG=todobackend:* nodemon ./bin/www",
-    "dev-windows": "nodemon ./bin/www"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webmad1019-1/todo-backend-fullstack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "cookie-parser": "^1.4.3",
-    "cors": "^2.8.5",
-    "dotenv": "^6.0.0",
-    "express": "^4.16.3",
-    "hbs": "^4.0.1",
-    "mongoose": "^5.2.10",
-    "morgan": "^1.9.0",
-    "node-sass-middleware": "^0.11.0",
-    "serve-favicon": "^2.5.0"
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^1.7.0"
   },
-  "devDependencies": {
-    "nodemon": "^1.12.1"
-  }
+  "bugs": {
+    "url": "https://github.com/webmad1019-1/todo-backend-fullstack/issues"
+  },
+  "homepage": "https://github.com/webmad1019-1/todo-backend-fullstack#readme"
 }
